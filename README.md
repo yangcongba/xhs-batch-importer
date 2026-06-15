@@ -97,6 +97,10 @@ Favorites data is cached in `.obsidian/plugins/xhs-batch-importer/cached-favorit
 3. Stops as soon as it encounters the cached note
 4. Merges new data with cached data (preserving XHS ordering) and updates the cache
 
+## Acknowledgments
+
+The note parsing logic (`extractTitle`, `extractContent`, `extractImages`, `extractVideoUrl`, `extractTags`, `isVideoNote`) was adapted from [xiaohongshu-importer](https://github.com/bnchiang96/xiaohongshu-importer) by bnchiang96, licensed under MIT.
+
 ## License
 
 MIT
@@ -201,6 +205,10 @@ comments: 5
 2. 滚动加载时检查当前加载的 ID 列表
 3. 遇到缓存中的最新收藏即停止
 4. 合并新数据和缓存数据（保持小红书排序），更新缓存
+
+## 致谢
+
+笔记解析逻辑（`extractTitle`、`extractContent`、`extractImages`、`extractVideoUrl`、`extractTags`、`isVideoNote`）改编自 [xiaohongshu-importer](https://github.com/bnchiang96/xiaohongshu-importer)（作者 bnchiang96，MIT 许可证）。
 
 ## 许可证
 
