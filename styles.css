@@ -1,0 +1,123 @@
+.xhs-stats {
+  margin-bottom: 12px;
+  padding: 8px;
+  background: var(--background-secondary);
+  border-radius: 4px;
+}
+
+.xhs-unimported-count {
+  font-weight: bold;
+  color: var(--text-accent);
+}
+
+.xhs-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.xhs-category-select {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.xhs-category-select select {
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.xhs-media-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+
+.xhs-note-list {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.xhs-note-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--background-modifier-border-hover);
+}
+
+.xhs-note-row:last-child {
+  border-bottom: none;
+}
+
+.xhs-note-row input[type="checkbox"] {
+  flex-shrink: 0;
+}
+
+.xhs-note-title {
+  color: var(--text-normal);
+  font-size: 0.9em;
+}
+
+.xhs-note-author {
+  color: var(--text-muted);
+  font-size: 0.8em;
+}
+
+.xhs-more-hint {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 8px;
+  font-style: italic;
+}
+
+.xhs-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.xhs-selected-count {
+  font-weight: bold;
+  color: var(--text-accent);
+}
+
+.xhs-code-block {
+  background: var(--background-secondary);
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 0.75em;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+  margin-bottom: 12px;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.xhs-paste-input {
+  width: 100%;
+  padding: 8px;
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.85em;
+  resize: vertical;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,10 @@
+{
+  "id": "xhs-batch-importer",
+  "name": "XHS Batch Importer",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Batch import XHS (Xiaohongshu) favorites into Obsidian with deduplication and categorization.",
+  "author": "",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}
